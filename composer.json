@@ -1,0 +1,23 @@
+{
+  "name": "mage-aman/orders-telephone",
+  "version": "1.0.0",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*",
+    "magento/module-backend": "102.0.*",
+    "magento/module-sales": "103.0.*",
+    "magento/module-ui": "101.2.*"
+  },
+  "license": [
+    "Open Software License (OSL)"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MageAman\\OrdersTelephone\\": ""
+    }
+  }
+}
