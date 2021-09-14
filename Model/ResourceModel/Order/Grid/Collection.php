@@ -1,5 +1,7 @@
 <?php
 
+/** Extending sales_order_grid_data_source */
+
 namespace MageAman\OrdersTelephone\Model\ResourceModel\Order\Grid;
 
 use Magento\Sales\Model\ResourceModel\Order\Grid\Collection as CoreCollection;
